@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_fa-JwFSQEeixariCQhbSfw" name="testmysql" id="_Td_aYFSQEeixariCQhbSfw" label="testmysql" dataPackage="_3mFNcFSREeixariCQhbSfw _3mFNcVSREeixariCQhbSfw _3mFNclSREeixariCQhbSfw _3mFNc1SREeixariCQhbSfw _3mFNdFSREeixariCQhbSfw _fdAKFVSQEeixariCQhbSfw" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://10.57.193.8:3306/?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="oauser" Password="" ServerName="10.57.193.8" DatasourceName="" FileFieldName="" SID="" SqlSynthax="SQL Syntax" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_fa-JwVSQEeixariCQhbSfw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_fcOuAFSQEeixariCQhbSfw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_fcPVEFSQEeixariCQhbSfw" tag="Status" value=""/>
+    <taggedValue xmi:id="_fcPVEVSQEeixariCQhbSfw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_fcPVElSQEeixariCQhbSfw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_fcPVE1SQEeixariCQhbSfw" tag="Description" value=""/>
+    <taggedValue xmi:id="_fcPVFFSQEeixariCQhbSfw" tag="Author" value=""/>
+    <taggedValue xmi:id="_fcPVFVSQEeixariCQhbSfw" tag="otherParameter"/>
+    <taggedValue xmi:id="_fckFMFSQEeixariCQhbSfw" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_fckFMVSQEeixariCQhbSfw" tag="DB ProductVersion" value="5.7.22"/>
+    <taggedValue xmi:id="_fckFMlSQEeixariCQhbSfw" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_fa-JwlSQEeixariCQhbSfw" key="CONN_PARA_KEY_USERNAME" value="oauser"/>
+    <parameters xmi:id="_0bYMAFSREeixariCQhbSfw" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_3mFNcFSREeixariCQhbSfw" name="information_schema" dataManager="_fa-JwFSQEeixariCQhbSfw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_3mFNcVSREeixariCQhbSfw" name="hive" dataManager="_fa-JwFSQEeixariCQhbSfw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_3mFNclSREeixariCQhbSfw" name="mysql" dataManager="_fa-JwFSQEeixariCQhbSfw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_3mFNc1SREeixariCQhbSfw" name="performance_schema" dataManager="_fa-JwFSQEeixariCQhbSfw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_3mFNdFSREeixariCQhbSfw" name="sys" dataManager="_fa-JwFSQEeixariCQhbSfw"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_fdAKFVSQEeixariCQhbSfw" name="testmysql" dataManager="_fa-JwFSQEeixariCQhbSfw">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_ghgekFSREeixariCQhbSfw" name="tutorials_tbl" id="_ghaX8FSREeixariCQhbSfw" label="tutorials_tbl" tableType="TABLE">
+      <taggedValue xmi:id="_ghgekVSREeixariCQhbSfw" tag="Comment" value=""/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_ghgeklSREeixariCQhbSfw" name="tutorial_id" label="tutorial_id" length="10" sourceType="INT" talendType="id_Integer" key="true" nullable="false">
+        <taggedValue xmi:id="_ghgek1SREeixariCQhbSfw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_ghgelFSREeixariCQhbSfw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_ghgelVSREeixariCQhbSfw" name="INT" numericPrecisionRadix="10" javaDataType="4"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_ghgellSREeixariCQhbSfw" name="tutorial_title" label="tutorial_title" length="100" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_ghgel1SREeixariCQhbSfw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_ghgemFSREeixariCQhbSfw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_ghgemVSREeixariCQhbSfw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_ghgemlSREeixariCQhbSfw" name="tutorial_author" label="tutorial_author" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_ghgem1SREeixariCQhbSfw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_ghgenFSREeixariCQhbSfw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_ghgenVSREeixariCQhbSfw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_ghgenlSREeixariCQhbSfw" name="submission_date" label="submission_date" length="10" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <taggedValue xmi:id="_ghgen1SREeixariCQhbSfw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_ghgeoFSREeixariCQhbSfw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_ghgeoVSREeixariCQhbSfw" name="DATE" numericPrecisionRadix="10" javaDataType="91" nullable="columnNullable"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
