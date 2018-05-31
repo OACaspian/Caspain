@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_Gx8MgGUNEeifIKno4mGEGg" dataPackage="_Gx8MgWUNEeifIKno4mGEGg"/>
+  <TalendMetadata:GenericPackage xmi:id="_Gx8MgWUNEeifIKno4mGEGg" dataManager="_Gx8MgGUNEeifIKno4mGEGg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Gx8MgmUNEeifIKno4mGEGg" id="_Gx7lcGUNEeifIKno4mGEGg" label="DimEmployee">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mg2UNEeifIKno4mGEGg" name="EmployeeKey" label="EmployeeKey" length="10" sourceType="INT IDENTITY" talendType="id_Integer" key="true" nullable="false">
+        <initialValue xmi:id="_Gx8MhGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MhWUNEeifIKno4mGEGg" name="ParentEmployeeKey" label="ParentEmployeeKey" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_Gx8MhmUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mh2UNEeifIKno4mGEGg" name="EmployeeNationalIDAlternateKey" label="EmployeeNationalIDAlternateKey" length="15" sourceType="NVARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MiGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MiWUNEeifIKno4mGEGg" name="ParentEmployeeNationalIDAlternateKey" label="ParentEmployeeNationalIDAlternateKey" length="15" sourceType="NVARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MimUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mi2UNEeifIKno4mGEGg" name="SalesTerritoryKey" label="SalesTerritoryKey" length="10" sourceType="INT" talendType="id_Integer">
+        <initialValue xmi:id="_Gx8MjGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MjWUNEeifIKno4mGEGg" name="FirstName" label="FirstName" length="50" sourceType="NVARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_Gx8MjmUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mj2UNEeifIKno4mGEGg" name="LastName" label="LastName" length="50" sourceType="NVARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_Gx8MkGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MkWUNEeifIKno4mGEGg" name="MiddleName" label="MiddleName" length="50" sourceType="NVARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MkmUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mk2UNEeifIKno4mGEGg" name="NameStyle" label="NameStyle" length="1" sourceType="BIT" talendType="id_Boolean" nullable="false">
+        <initialValue xmi:id="_Gx8MlGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MlWUNEeifIKno4mGEGg" name="Title" label="Title" length="50" sourceType="NVARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MlmUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Ml2UNEeifIKno4mGEGg" name="HireDate" label="HireDate" length="10" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_Gx8MmGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MmWUNEeifIKno4mGEGg" name="BirthDate" label="BirthDate" length="10" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_Gx8MmmUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mm2UNEeifIKno4mGEGg" name="LoginID" label="LoginID" length="256" sourceType="NVARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MnGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MnWUNEeifIKno4mGEGg" name="EmailAddress" label="EmailAddress" length="50" sourceType="NVARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MnmUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mn2UNEeifIKno4mGEGg" name="Phone" label="Phone" length="25" sourceType="NVARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MoGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MoWUNEeifIKno4mGEGg" name="MaritalStatus" label="MaritalStatus" length="1" sourceType="NCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MomUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mo2UNEeifIKno4mGEGg" name="EmergencyContactName" label="EmergencyContactName" length="50" sourceType="NVARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MpGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MpWUNEeifIKno4mGEGg" name="EmergencyContactPhone" label="EmergencyContactPhone" length="25" sourceType="NVARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MpmUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mp2UNEeifIKno4mGEGg" name="SalariedFlag" label="SalariedFlag" length="1" sourceType="BIT" talendType="id_Boolean">
+        <initialValue xmi:id="_Gx8MqGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MqWUNEeifIKno4mGEGg" name="Gender" label="Gender" length="1" sourceType="NCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MqmUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mq2UNEeifIKno4mGEGg" name="PayFrequency" label="PayFrequency" length="3" sourceType="TINYINT" talendType="id_Short">
+        <initialValue xmi:id="_Gx8MrGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MrWUNEeifIKno4mGEGg" name="BaseRate" label="BaseRate" length="19" precision="4" sourceType="MONEY" talendType="id_Object">
+        <initialValue xmi:id="_Gx8MrmUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mr2UNEeifIKno4mGEGg" name="VacationHours" label="VacationHours" length="5" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_Gx8MsGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MsWUNEeifIKno4mGEGg" name="SickLeaveHours" label="SickLeaveHours" length="5" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_Gx8MsmUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Ms2UNEeifIKno4mGEGg" name="CurrentFlag" label="CurrentFlag" length="1" sourceType="BIT" talendType="id_Boolean" nullable="false">
+        <initialValue xmi:id="_Gx8MtGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MtWUNEeifIKno4mGEGg" name="SalesPersonFlag" label="SalesPersonFlag" length="1" sourceType="BIT" talendType="id_Boolean" nullable="false">
+        <initialValue xmi:id="_Gx8MtmUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mt2UNEeifIKno4mGEGg" name="DepartmentName" label="DepartmentName" length="50" sourceType="NVARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MuGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MuWUNEeifIKno4mGEGg" name="StartDate" label="StartDate" length="10" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_Gx8MumUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mu2UNEeifIKno4mGEGg" name="EndDate" label="EndDate" length="10" sourceType="DATE" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_Gx8MvGUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8MvWUNEeifIKno4mGEGg" name="Status" label="Status" length="50" sourceType="NVARCHAR" talendType="id_String">
+        <initialValue xmi:id="_Gx8MvmUNEeifIKno4mGEGg"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Gx8Mv2UNEeifIKno4mGEGg" name="EmployeePhoto" label="EmployeePhoto" length="2147483647" sourceType="VARBINARY" talendType="id_Object">
+        <initialValue xmi:id="_Gx8MwGUNEeifIKno4mGEGg"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
